@@ -35,10 +35,8 @@ public class exercicio3 {
         }
 
         // Calculando a média das notas
-        double media = ((notaProva1 * 0.6 + ((notaExercicio1 + notaExercicio2) / 2) * 0.4)
-        	* 0.5 + (Math.max(((notaProva1 * 0.6 + ((notaExercicio1 + notaExercicio2)/2)
-        	*0.4) - 5.9),0)/(notaProva1 * 0.6 + ((notaExercicio1 + notaExercicio2)/2)*0.4)
-        	-5.9)) * (notaAPI + 0.5) + X;
+        double parte1 = (notaProva1 * 0.6 + ((notaExercicio1 + notaExercicio2)/2));
+        double media = (parte1 * 0.4) * 0.5 + (Math.max(((parte1 *0.4) - 5.9),0)/parte1*0.4)-5.9 * (notaAPI + 0.5) + X;
         
         
         System.out.println("A média de LP1 deste semestre é: " + media);

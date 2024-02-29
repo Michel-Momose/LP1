@@ -1,4 +1,4 @@
-package linguagem_programacao1;
+package linguagem_programacao1.tarefa1;
 
 import java.util.Scanner;
 
@@ -40,14 +40,12 @@ public class exercicio3 {
         } else {
             System.out.print("Digite a nota da prova substitutiva (0 a 10): ");
             double SUB = scanner.nextDouble();
-            
-            // Verificando se a nota da prova substitutiva está no intervalo válido
+
             if (SUB < 0 || SUB > 10) {
                 System.out.println("A nota da prova substitutiva deve estar no intervalo de 0 a 10.");
                 return;
             }
-            
-            // Recalculando a média considerando a prova substitutiva
+
             double mediaComSub = mediaSemSub + (SUB * 0.2);
             System.out.println("A média de LP1 deste semestre com a prova substitutiva é: " + mediaComSub);
             

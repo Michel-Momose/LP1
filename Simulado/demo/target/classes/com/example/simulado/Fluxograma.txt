@@ -1,0 +1,55 @@
+  Início
+     |
+     V
+   Ler valor
+     |
+     V
+   Se valor = 1
+     |
+     V
+   Escrever "Domingo"
+     |
+     V
+   Senão, se valor = 2
+     |
+     V
+   Escrever "Segunda"
+     |
+     V
+   Senão, se valor = 3
+     |
+     V
+   Escrever "Terça"
+     |
+     V
+   Senão, se valor = 4
+     |
+     V
+   Escrever "Quarta"
+     |
+     V
+   Senão, se valor = 5
+     |
+     V
+   Escrever "Quinta"
+     |
+     V
+   Senão, se valor = 6
+     |
+     V
+   Escrever "Sexta"
+     |
+     V
+   Senão, se valor = 7
+     |
+     V
+   Escrever "Sábado"
+     |
+     V
+   Senão
+     |
+     V
+   Escrever "Valor inválido"
+     |
+     V
+   Fim
